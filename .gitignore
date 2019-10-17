@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+# /docs
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+.vs
+*bak
+jsconfig.json
+.vscode/settings.json
+*.diff
+
+/.ci/ci_temp
+.history
+.node_modules
+
+# mock 修改后的数据
+/mock/data_tmp
+
+# eclipse
+/.project
+/.settings
+
+# vscode
+/.vscode
+
+#package-lock.json
+package-lock.json
